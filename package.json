@@ -28,10 +28,12 @@
         "lint-staged": "^16.2.4",
         "prettier": "^3.6.2",
         "tailwindcss": "^4",
+        "tsc-files": "^1.1.4",
         "typescript": "^5"
     },
     "lint-staged": {
         "*.{js,jsx,ts,tsx}": [
+            "tsc-files --noEmit",
             "eslint"
         ]
     }
