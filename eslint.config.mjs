@@ -21,6 +21,7 @@ const eslintConfig = [
             'comma-dangle': ['error', 'always-multiline'],
             'max-len': ['error', { code: 150 }],
             'arrow-parens': ['error', 'always'],
+            'react/jsx-newline': ['error', { prevent: false }],
         },
     },
 ];
